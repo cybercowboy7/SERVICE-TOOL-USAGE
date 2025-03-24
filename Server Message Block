@@ -1,3 +1,14 @@
 - Network file sharing protocol
 - Allows applications to read and write files and request services from server programs in a computer network
 - Enables file sharing, printer sharing, network browsing, and inter-process coms through named pipes
+
+smbclient -N -L \\\\10.129.42.253
+- -N : suppresses the password prompt
+- -L: Retrieves a list of available shares on the remote host
+
+smbclient \\\\10.129.42.253\\users
+- connects to the share "users"
+
+smbclient -U bob \\\\10.129.42.253\\users
+- -U: Specifies username
+- It will prompt for bob's password to assess particular share
