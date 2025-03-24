@@ -1,0 +1,3 @@
+- Network file sharing protocol
+- Allows applications to read and write files and request services from server programs in a computer network
+- Enables file sharing, printer sharing, network browsing, and inter-process coms through named pipes
