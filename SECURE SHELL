@@ -1,0 +1,6 @@
+Secure Shell:
+- Runs on port 22
+- Provides user with a secure way to access a computer remotely
+- Can be configured with password auth or passwordless using public-key auth with pub/priv key pair
+- Syntax:
+  ssh Bob@10.10.10.10
